@@ -16,3 +16,45 @@ img {
   display: block;
   max-width: 100%;
 }
+
+
+
+.label{
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  font-size: 48px;
+}
+
+.field {
+  margin: 0 10px;
+}
+
+.data-picker-container{
+  display: flex;
+  justify-content: center;
+}
+
+.input-picker{
+  width: 200px;
+  height: 50px;
+  margin-right:10px;
+  font-size: 20px;
+}
+.start-btn{
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  background-color: green;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}

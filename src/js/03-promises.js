@@ -19,7 +19,7 @@ form.addEventListener("submit", e => {
 
 let promiseChain = Promise.resolve();
 
-for (let i = 0; i < amount; i++) {
+for (let i = 1; i < amount; i++) {
   const curDelay = delay + step * i;
   promiseChain = promiseChain
     .then(() => createPromise(i, curDelay))
